@@ -1,3 +1,10 @@
+# Author: Lucas Roesler
+# Date: 2014-07-12
+# Purpose: generate a histogram plot of Global Active Power 
+#          for the dates of 2007-02-01 and 2007-02-02.  The 
+#          will download and extrac the dataset and it will 
+#          also install and use the data.table library.
+
 if(!require("data.table", character.only=T)){
     install.packages("data.table")
     require(data.table)
